@@ -1,9 +1,11 @@
 {
   "name": "hx711",
-  "version": "0.0.1",
   "type": "flogo:activity",
-  "description": "activity description",
-  "author": "Your Name <you.name@example.org>",
+  "ref": "github.com/lhollyer/ds18b20",
+  "version": "0.0.1",
+  "title": "Setup hx711",
+  "description": "Setup hx711",
+  "homepage": "https://github.com/lhollyer/hx711",
   "inputs":[
     {
       "name": "dtNumber",
