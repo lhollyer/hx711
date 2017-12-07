@@ -40,7 +40,6 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error)  {
 	}
 	fmt.Println(b)
 	context.SetOutput("result", b)
-	log.Debugf("weight: %.2f\n", b)
 
 	return true, nil
 }
