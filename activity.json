@@ -1,0 +1,30 @@
+{
+  "name": "hx711",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "activity description",
+  "author": "Your Name <you.name@example.org>",
+  "inputs":[
+    {
+      "name": "dtNumber",
+      "type": "integer",
+      "required": false
+    },
+    {
+      "name": "sckNumber",
+      "type": "integer",
+      "required": false
+    },
+    {
+      "name": "Offset",
+      "type": "integer",
+      "required": false
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "integer"
+    }
+  ]
+}
