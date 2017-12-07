@@ -2,7 +2,7 @@ package hx711
 
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+//	"github.com/TIBCOSoftware/flogo-lib/logger"
 	"fmt"
 	"os/exec"
 	"log"
@@ -31,8 +31,8 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error)  {
 	// do eval
 	out, err := exec.Command("/home/pi/hx711pyFINAL/middle.py").Output()
 
-	a := string(out)
-	s := strings.TrimSpace(a)
+	initial := string(out)
+	s := strings.TrimSpace(initial)
 	b, err := strconv.Atoi(s)
 
 	if err != nil {
