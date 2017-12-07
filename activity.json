@@ -1,7 +1,7 @@
 {
   "name": "hx711",
   "type": "flogo:activity",
-  "ref": "github.com/lhollyer/ds18b20",
+  "ref": "github.com/lhollyer/hx711",
   "version": "0.0.1",
   "title": "Setup hx711",
   "description": "Setup hx711",
